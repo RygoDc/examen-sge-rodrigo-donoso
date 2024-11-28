@@ -1,0 +1,9 @@
+#La carpeta events (0,5)
+events/
+#Todos los .class que haya dentro de cualquier profundidad de carpetas dentro de layers (0,5)
+layers/**/*.class
+#Todos los archivos acabados en lock.json del repositorio (0,5)
+*lock.json
+#Todo lo que contenga la carpeta node_modules dentro de src sin contar la carpeta misma (0,5)
+src/node_module/*
+!src/node_module/.gitkeep
